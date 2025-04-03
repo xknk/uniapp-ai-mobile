@@ -1,0 +1,29 @@
+/*
+ * @Author: Robin LEI
+ * @Date: 2023-08-28 11:50:27
+ * @LastEditTime: 2025-04-03 10:58:31
+ * @FilePath: \uniapp\插件模板\前端页面模板\uniapp-ai-mobile\src\pages.json
+ */
+{
+    "pages": [
+        // 首页
+        {
+            "path": "pages/home/index",
+            "style": {
+                "navigationBarTitleText": "首页"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "TESTAI",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8",
+        "navigationStyle": "custom",
+        "scrollIndicator": "none",
+        "app-plus": {
+            "titleNView": false,
+            "bounce": "none"
+        }
+    }
+}

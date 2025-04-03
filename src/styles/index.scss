@@ -1,0 +1,14 @@
+$namespace: intdna;
+$primary-color: #567DF4;
+// $app-bar-height: 99rpx;
+$app-bar-height: 0rpx;
+$app-body-height: 100vh;
+
+$page-bg: #fff;
+
+
+.safe-bottom {
+    padding-bottom: constant(safe-area-inset-bottom) !important;
+    padding-bottom: env(safe-area-inset-bottom) !important;
+    box-sizing: border-box;
+}
