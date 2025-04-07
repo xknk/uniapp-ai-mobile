@@ -1,8 +1,8 @@
 <!--
  * @Author: Robin LEI
  * @Date: 2025-04-03 10:29:35
- * @LastEditTime: 2025-04-03 11:24:58
- * @FilePath: \uniapp\插件模板\前端页面模板\uniapp-ai-mobile\src\pages\home\components\Content.vue
+ * @LastEditTime: 2025-04-03 13:10:25
+ * @FilePath: \lg-wms-admind:\uniapp\插件模板\前端页面模板\uniapp-ai-mobile\src\pages\home\components\Content.vue
 -->
 <template>
     <div
@@ -299,7 +299,6 @@ const lastTouchY = ref(0); // 当前y点
 const isScroStop = ref<boolean>(false); //是否停止滚动
 const isUp = ref<boolean>(false); // 是否显示下滚
 const selectChart = ref("bar");
-const shareDom = ref();
 let arrDom: any = [];
 let timer: any = null;
 const initScrollToBottomFunc = () => {
